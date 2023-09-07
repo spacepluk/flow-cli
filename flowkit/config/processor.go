@@ -21,7 +21,30 @@ package config
 import (
 	"encoding/json"
 	"fmt"
+	"regexp"
+
+	"github.com/a8m/envsubst"
+	"github.com/joho/godotenv"
 )
+
+var (
+	fileRegex     = regexp.MustCompile(`"([^"]*)"\s*:\s*{\s*"fromFile"\s*:\s*"([^"]*)"\s*},?`)
+	trailingComma = regexp.MustCompile(`,\s*}`)
+)
+
+func ProcessorRun(raw []byte) []byte {
+	rawString := string(raw)
+	rawString = processEnv(rawString)
+	return []byte(rawString)
+}
+
+// processEnv finds env variables and insert env values.
+func processEnv(raw string) string {
+	_ = godotenv.Load() // try to load .env file
+
+	raw, _ = envsubst.String(raw)
+	return raw
+}
 
 // processorRun all pre-processors.
 func processorRun(raw []byte) ([]byte, error) {
@@ -32,6 +55,8 @@ func processorRun(raw []byte) ([]byte, error) {
 		Deployments any                       `json:"deployments,omitempty"`
 		Emulators   any                       `json:"emulators,omitempty"`
 	}
+
+	raw = ProcessorRun(raw)
 
 	var conf config
 	err := json.Unmarshal(raw, &conf)
