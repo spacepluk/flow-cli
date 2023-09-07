@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"strings"
 
-	devWallet "github.com/onflow/fcl-dev-wallet/go/wallet"
+	devWallet "github.com/spacepluk/fcl-dev-wallet/go/wallet"
 	"github.com/spf13/cobra"
 
 	"github.com/onflow/flow-cli/flowkit"

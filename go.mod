@@ -11,7 +11,6 @@ require (
 	github.com/onflow/cadence v0.40.0
 	github.com/onflow/cadence-tools/languageserver v0.32.0
 	github.com/onflow/cadence-tools/test v0.10.0
-	github.com/onflow/fcl-dev-wallet v0.7.2
 	github.com/onflow/flixkit-go v0.1.0
 	github.com/onflow/flow-cli/flowkit v1.3.5-0.20230808220356-6a2bfeb10552
 	github.com/onflow/flow-core-contracts/lib/go/templates v1.2.3
@@ -22,6 +21,7 @@ require (
 	github.com/psiemens/sconfig v0.1.0
 	github.com/radovskyb/watcher v1.0.7
 	github.com/sergi/go-diff v1.3.1
+	github.com/spacepluk/fcl-dev-wallet v0.7.2-crypthulhu.0
 	github.com/spf13/afero v1.9.5
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/viper v1.16.0

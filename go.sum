@@ -781,8 +781,6 @@ github.com/onflow/cadence-tools/lint v0.11.1 h1:3LuXC9yY5127qBpK0LI1ZSNveEPuJ/Jf
 github.com/onflow/cadence-tools/lint v0.11.1/go.mod h1:cPTvbS0Z3hQbwXyWR0gTYiWkIRQb762WAaeOuP6rqrU=
 github.com/onflow/cadence-tools/test v0.10.0 h1:tcNjOFXl7ZuuvgQ3uS36ENd8l3RkSBv4toC/J302rhY=
 github.com/onflow/cadence-tools/test v0.10.0/go.mod h1:eIvZOzFdi4JR2x6ekQfN8veQy04ZlZYbeeiQF/oZ0zM=
-github.com/onflow/fcl-dev-wallet v0.7.2 h1:ZwhpzDakcZn9rHiIr52LwkdPh1MpUPbxA/PwCVaZ2SA=
-github.com/onflow/fcl-dev-wallet v0.7.2/go.mod h1:kc42jkiuoPJmxMRFjfbRO9XvnR/3XLheaOerxVMDTiw=
 github.com/onflow/flixkit-go v0.1.0 h1:3nH+1z+D+0YlmEJk9zYtvD8p4eUl2wJtiV6ZCgM7vYE=
 github.com/onflow/flixkit-go v0.1.0/go.mod h1:gPffHQ6jDyuNtLG6W9C6FGvDZmcOb9CkvsJYKY0Opc4=
 github.com/onflow/flow-archive v1.3.4-0.20230503192214-9e81e82d4dcc h1:C4ZniFeOv+pHlDLJdGc/4e3NklSjVuvaXKN47980gnY=
@@ -957,6 +955,8 @@ github.com/soheilhy/cmux v0.1.4/go.mod h1:IM3LyeVVIOuxMH7sFAkER9+bJ4dT7Ms6E4xg4k
 github.com/sony/gobreaker v0.4.1/go.mod h1:ZKptC7FHNvhBz7dN2LGjPVBz2sZJmc0/PkyDJOjmxWY=
 github.com/sourcegraph/jsonrpc2 v0.1.0 h1:ohJHjZ+PcaLxDUjqk2NC3tIGsVa5bXThe1ZheSXOjuk=
 github.com/sourcegraph/jsonrpc2 v0.1.0/go.mod h1:ZafdZgk/axhT1cvZAPOhw+95nz2I/Ra5qMlU4gTRwIo=
+github.com/spacepluk/fcl-dev-wallet v0.7.2-crypthulhu.0 h1:hbr1PCQ3p9IbxxNTXhR1X3Zxy3s4v2hQZuwDfIt75yY=
+github.com/spacepluk/fcl-dev-wallet v0.7.2-crypthulhu.0/go.mod h1:cOx/emHCkbNJe3tUzyuv4hi1spVaHwPr7tPcDVNj4ac=
 github.com/spaolacci/murmur3 v0.0.0-20180118202830-f09979ecbc72/go.mod h1:JwIasOWyU6f++ZhiEuf87xNszmSA2myDM2Kzu9HwQUA=
 github.com/spaolacci/murmur3 v1.0.1-0.20190317074736-539464a789e9/go.mod h1:JwIasOWyU6f++ZhiEuf87xNszmSA2myDM2Kzu9HwQUA=
 github.com/spaolacci/murmur3 v1.1.0 h1:7c1g84S4BPRrfL5Xrdp6fOJ206sU9y293DDHaoy0bLI=
