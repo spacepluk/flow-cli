@@ -28,6 +28,7 @@ import (
 	"net/http"
 	"os"
 	"os/user"
+	"regexp"
 	"runtime"
 	"runtime/debug"
 	"strings"
@@ -294,7 +295,9 @@ func checkVersion(logger output.Logger) {
 
 	latestVersion := fmt.Sprintf("v%s", strings.TrimPrefix(latestVersionRaw, "v"))
 
-	currentVersion := build.Semver()
+	crypthulhuSuffix := regexp.MustCompile("-crypthulhu.\\d+$")
+	buildVersion := build.Semver()
+	currentVersion := crypthulhuSuffix.ReplaceAllString(buildVersion, "")
 	if isDevelopment() {
 		return // avoid warning in local development
 	}
