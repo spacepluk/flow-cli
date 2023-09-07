@@ -3,6 +3,8 @@ module github.com/onflow/flow-cli/flowkit
 go 1.18
 
 require (
+	github.com/a8m/envsubst v1.3.0
+	github.com/joho/godotenv v1.4.0
 	github.com/ethereum/go-ethereum v1.10.22
 	github.com/gosuri/uilive v0.0.4
 	github.com/invopop/jsonschema v0.7.0
