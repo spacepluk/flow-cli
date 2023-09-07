@@ -80,7 +80,7 @@ publish:
 
 .PHONY: clean
 clean:
-	rm ./cmd/flow/flow*
+	rm -r ./cmd/flow/flow*
 
 .PHONY: lint
 lint: generate
