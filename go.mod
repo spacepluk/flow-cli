@@ -51,6 +51,7 @@ require (
 	github.com/ProtonMail/go-crypto v0.0.0-20230828082145-3c4c8a2d2371 // indirect
 	github.com/StackExchange/wmi v1.2.1 // indirect
 	github.com/VictoriaMetrics/fastcache v1.12.1 // indirect
+	github.com/a8m/envsubst v1.4.2 // indirect
 	github.com/atotto/clipboard v0.1.4 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
@@ -150,7 +151,7 @@ require (
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/jbenet/go-temp-err-catcher v0.1.0 // indirect
 	github.com/jbenet/goprocess v0.1.4 // indirect
-	github.com/joho/godotenv v1.4.0 // indirect
+	github.com/joho/godotenv v1.5.1 // indirect
 	github.com/k0kubun/pp/v3 v3.2.0 // indirect
 	github.com/kevinburke/go-bindata v3.23.0+incompatible // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
@@ -283,3 +284,5 @@ require (
 	nhooyr.io/websocket v1.8.7 // indirect
 	rsc.io/tmplfunc v0.0.3 // indirect
 )
+
+replace github.com/onflow/flowkit v1.19.0 => github.com/spacepluk/flowkit v1.19.0-crypthulhu.0
